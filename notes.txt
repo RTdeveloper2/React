@@ -1,0 +1,17 @@
+//React element
+const jsxeheading = <h1 className='header' tabIndex={1}>React Assignments</h1>
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(jsxeheading);
+
+//component composition,Functional component, a function return jsx code.
+const HeadingComponent = () => {
+  return (
+    <div>
+      <h1 className="header">Header</h1>
+      <BodyComponent />
+    </div>
+  );
+};
+
+
+jsx is so powerfull that it can avoid cross-site scripting,avoids malicious data.
