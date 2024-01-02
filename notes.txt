@@ -8,6 +8,7 @@ const HeadingComponent = () => {
   return (
     <div>
       <h1 className="header">Header</h1>
+      {BodyComponent()}  // these two are the same things.
       <BodyComponent />
     </div>
   );
@@ -15,3 +16,6 @@ const HeadingComponent = () => {
 
 
 jsx is so powerfull that it can avoid cross-site scripting,avoids malicious data.
+
+
+props => passing properties to component, its just a argument
