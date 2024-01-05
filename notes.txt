@@ -19,3 +19,20 @@ jsx is so powerfull that it can avoid cross-site scripting,avoids malicious data
 
 
 props => passing properties to component, its just a argument
+
+
+/*
+Header - logo component, nav component
+body - search, card container, cards
+footer - copyrights etc.
+*/
+
+
+
+
+//not recommended to use index as a key in map.
+
+
+
+React Hooks:
+react hooks are react utility functions, useState hook is used for updating the state of the variable according the logic we wrote, everytime the variable updates, react rerenders the whole application

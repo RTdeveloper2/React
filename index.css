@@ -21,8 +21,9 @@
    margin: 10px;
 }
 
-.search {
+.filter {
     padding: 10px;
+    display: flex;
 }
 
 .res-cards{
@@ -30,6 +31,19 @@
     padding: 5px;
     width: 200px;
     background-color: #f0f0f0;
+}
+
+.shimmer-cards{
+    margin: 20px;
+    padding: 5px;
+    width: 200px;
+    height: 400px;
+    background-color: #f0f0f0;  
+}
+
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap; 
 }
 .res-container{
     display: flex;
